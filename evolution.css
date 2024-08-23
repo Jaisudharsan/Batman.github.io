@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: url('Batman BG5.jpg') no-repeat center center/cover; /* Set background image */
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.8); /* Slightly transparent to blend with background */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo img {
+    height: 40px;
+    width: auto;
+}
+
+nav .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav .nav-links li {
+    margin: 0 20px;
+}
+
+nav .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .nav-links li a:hover {
+    color: #f36f36;
+}
+
+/* Burger Menu Styles */
+nav .burger {
+    display: none;
+    cursor: pointer;
+}
+
+nav .burger div {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Section Styles */
+.container {
+    position: relative;
+    padding: 40px 20px;
+}
+
+section {
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background for content */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #555;
+}
+
+/* Timeline Styles */
+.timeline {
+    position: relative;
+    padding: 10px 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    left: 20px;
+    top: 0;
+}
+
+.timeline-item h3 {
+    margin-top: 0;
+    color: #ffcc00;
+    font-size: 1.5em;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid #ffcc00;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+}
+
+footer .social-links {
+    margin: 10px 0;
+}
+
+footer .social-links a {
+    color: #f3f2f2;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #f36f36;
+}
